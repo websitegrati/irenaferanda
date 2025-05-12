@@ -1,0 +1,90 @@
+body {
+    background-image: url('background/5aa6f1a27c0b2.image.webp');
+    background-size: cover;
+    color: rgb(242, 232, 232);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #79004f;
+    border-radius: 20px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    width: 400px;
+    text-align: center;
+}
+
+.profile {
+    margin-bottom: 20px;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: 3px solid #f1eaea;
+    margin-bottom: 10px;
+}
+
+.name {
+    font-family: 'RussoOne';
+    font-size: 24px;
+    margin: 5px 0;
+    font-weight: 400;
+}
+
+.bio {
+    font-family: 'KellySlab';
+    color: #eae4e4;
+    font-size: 14px;
+    margin-bottom: 15px;
+    font-weight: 800;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.link {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 12px;
+    background-color: #051246;
+    color: #efe5e5;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s, transform 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link i {
+    margin-right: 8px;
+}
+
+.link:hover {
+    background-color: #8215db;
+    transform: translateY(-3px);
+}
+footer {
+    font-family: 'KellySlab';
+    margin-top: 20px;
+    font-size: 12px;
+    color: #dddddd;
+    font-weight: 800;
+}
+@font-face{
+    font-family: 'RussoOne';
+    src: url('font/Russo_One/RussoOne-Regular.ttf');
+}
+@font-face{
+    font-family: 'KellySlab';
+    src: url('font/Kelly_Slab/KellySlab-Regular.ttf');
+}
